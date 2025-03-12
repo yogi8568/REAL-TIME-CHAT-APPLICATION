@@ -3,13 +3,13 @@ import { getFirestore, collection, addDoc, query, orderBy, onSnapshot } from "fi
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAKWPOfnGBCqD76GR-c8qrxjKEFWHLeJ6U",
-  authDomain: "yogi-d2f8a.firebaseapp.com",
-  projectId: "yogi-d2f8a",
-  storageBucket: "yogi-d2f8a.firebasestorage.app",
-  messagingSenderId: "962389185678",
-  appId: "1:962389185678:web:896f922ff27e9e4a72a5df",
-  measurementId: "G-Y8LEJQX3WR"
+  apiKey: "Your_api-key",
+  authDomain: "Your_auth_domain",
+  projectId: "Your_project_ID",
+  storageBucket: "Your_storage_bucket",
+  messagingSenderId: "Your_messaging_sender_id",
+  appId: "Your_app_id",
+  measurementId: "Your_measurment_id"
 };
 
 const app = initializeApp(firebaseConfig);
